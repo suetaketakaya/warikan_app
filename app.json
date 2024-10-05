@@ -2,26 +2,48 @@
   "expo": {
     "name": "warikan-app2",
     "slug": "warikan-app2",
-    "version": "1.0.0",
+    "version": "6.1.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app_icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
+    "sheme": "warikanapp2",
+    "scheme": "warikanapp2",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "package": "com.takechan.warikanapp2",
+      "versionCode": 5,
+      "runtimeVersion": {
+        "policy": "appVersion"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/app_icon.png",  
+      "splash": {
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCjQg58Z_55555555555555555555555555555555"
+      },
+      "bundleIdentifier": "com.takechan.warikanapp2",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "このアプリは位置情報を使用します。"
+      },
+      "runtimeVersion": "6.1.1"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "950f50fa-861f-48dd-89b3-4d87d098b039"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 10000,
+      "url": "https://u.expo.dev/950f50fa-861f-48dd-89b3-4d87d098b039"
     }
   }
 }
